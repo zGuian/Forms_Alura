@@ -17,10 +17,6 @@ namespace CursoWindowsForms
             InitializeComponent();
         }
         
-        private void Btn_VerConteudo_Click(object sender, EventArgs e)
-        {
-            Lbl_Conteudo.Text = Msk_TextBox.Text;
-        }
 
         private void Btn_Hora_Click(object sender, EventArgs e)
         {
@@ -80,6 +76,10 @@ namespace CursoWindowsForms
             Msk_TextBox.Text = "";
             Msk_TextBox.Focus();
             Lbl_MascaraAtiva.Visible = true;
+        }
+        private void Btn_VerConteudo_Click(object sender, EventArgs e)
+        {
+            Lbl_Conteudo.Text = Msk_TextBox.Text;
         }
     }
 }

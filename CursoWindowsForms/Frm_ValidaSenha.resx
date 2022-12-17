@@ -127,6 +127,9 @@
   <data name="Lbl_TItuloValidador.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;Lbl_TItuloValidador.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;Lbl_Resultado.Name" xml:space="preserve">
     <value>Lbl_Resultado</value>
   </data>
@@ -146,14 +149,14 @@
   <data name="&gt;&gt;Lbl_Resultado.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Lbl_TItuloValidador.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
   <data name="&gt;&gt;Txt_Senha.Name" xml:space="preserve">
     <value>Txt_Senha</value>
   </data>
   <data name="&gt;&gt;Btn_VerSenha.Name" xml:space="preserve">
     <value>Btn_VerSenha</value>
-  </data>
-  <data name="&gt;&gt;Btn_Reset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Lbl_TItuloValidador.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 24</value>
@@ -164,18 +167,17 @@
   <data name="&gt;&gt;Txt_Senha.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="Lbl_Resultado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="Lbl_Resultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 22</value>
   </data>
-  <data name="Btn_Reset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
+  <data name="Lbl_Resultado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Validação de Senhas</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Frm_ValidaSenha</value>
@@ -183,14 +185,17 @@
   <data name="&gt;&gt;Btn_VerSenha.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Txt_Senha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="Lbl_TItuloValidador.Text" xml:space="preserve">
+    <value>Validador de Senha</value>
+  </data>
   <data name="Btn_Reset.Location" type="System.Drawing.Point, System.Drawing">
     <value>245, 42</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Btn_VerSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 71</value>
   </data>
   <data name="Btn_VerSenha.Text" xml:space="preserve">
     <value>Ver Senha</value>
@@ -207,9 +212,6 @@
   <data name="&gt;&gt;Lbl_Resultado.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Btn_VerSenha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Txt_Senha.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 20</value>
   </data>
@@ -219,8 +221,8 @@
   <data name="&gt;&gt;Btn_VerSenha.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Lbl_Resultado.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;Btn_VerSenha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Lbl_TItuloValidador.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 9</value>
@@ -228,32 +230,30 @@
   <data name="Txt_Senha.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="Lbl_Resultado.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14.25pt, style=Bold</value>
+  <data name="&gt;&gt;Btn_Reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Lbl_TItuloValidador.Name" xml:space="preserve">
     <value>Lbl_TItuloValidador</value>
   </data>
-  <data name="&gt;&gt;Lbl_TItuloValidador.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Btn_VerSenha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 71</value>
   </data>
-  <data name="Lbl_TItuloValidador.Text" xml:space="preserve">
-    <value>Validador de Senha</value>
-  </data>
-  <data name="&gt;&gt;Lbl_Resultado.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="&gt;&gt;Txt_Senha.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Txt_Senha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 45</value>
+  <data name="&gt;&gt;Lbl_Resultado.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;Txt_Senha.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Lbl_TItuloValidador.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 15pt, style=Bold</value>
+  <data name="Btn_Reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
   </data>
   <data name="Txt_Senha.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>*</value>
