@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoWindowsForms
+namespace CursoWindowsFormsBiblioteca
 {
-    internal class Cls_Uteis
+    public class Cls_Uteis
     {
         public static bool Valida(string cpf)
         {
