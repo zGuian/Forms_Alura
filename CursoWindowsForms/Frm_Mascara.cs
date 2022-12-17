@@ -17,7 +17,6 @@ namespace CursoWindowsForms
             InitializeComponent();
         }
         
-
         private void Btn_Hora_Click(object sender, EventArgs e)
         {
             Msk_TextBox.UseSystemPasswordChar = false;
@@ -80,6 +79,7 @@ namespace CursoWindowsForms
         private void Btn_VerConteudo_Click(object sender, EventArgs e)
         {
             Lbl_Conteudo.Text = Msk_TextBox.Text;
+            Lbl_Conteudo.Visible = true;
         }
     }
 }
